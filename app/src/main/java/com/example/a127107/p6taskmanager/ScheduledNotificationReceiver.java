@@ -14,6 +14,7 @@ public class ScheduledNotificationReceiver extends BroadcastReceiver {
     public void onReceive(Context context, Intent i) {
         // TODO: This method is called when the BroadcastReceiver is receiving
         // an Intent broadcast.
+        //testing
 
         PendingIntent pendingIntent = PendingIntent.getActivity(context,reqCode,i,PendingIntent.FLAG_CANCEL_CURRENT);
 
